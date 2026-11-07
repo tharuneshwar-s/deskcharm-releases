@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DeskCharm — a nazar for your desktop, calm for your day</title>
+    <meta name="description" content="DeskCharm hangs a nazar charm on your Windows desktop, with festival visitors and gentle nudges for breaks, water, breathing and mood. Free, private, no account.">
+    <link rel="canonical" href="https://deskcharm.in/">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="DeskCharm">
+    <meta property="og:url" content="https://deskcharm.in/">
+    <meta property="og:title" content="DeskCharm — a nazar for your desktop, calm for your day">
+    <meta property="og:description" content="A charm, desk visitors and gentle calm tools for your Windows PC. Free and private.">
+    <meta property="og:image" content="https://deskcharm.in/img/og.jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="A blue evil-eye charm hanging on a rope next to the words: A calming charm that hangs on your desktop">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="DeskCharm — a nazar for your desktop, calm for your day">
+    <meta name="twitter:description" content="A charm, desk visitors and gentle calm tools for Windows. Free and private.">
+    <meta name="twitter:image" content="https://deskcharm.in/img/og.jpg">
+    <meta name="theme-color" content="#12131f">
+    <link rel="icon" href="img/thumb-nazar-blue.webp">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <a class="skip" href="#main">Skip to content</a>
+    <header class="nav">
+        <a class="brand" href="./"><span class="brand-eye"></span>DeskCharm</a>
+        <nav aria-label="Main">
+            <a href="#features">Features</a>
+            <a href="#pricing">Free &amp; Pro</a>
+            <a href="pricing.html">Buy Pro</a>
+            <a href="#download">Download</a>
+            <a href="#faq">FAQ</a>
+            <a href="guide/DeskCharm-Guide.pdf">Guide</a>
+            <a class="nav-gh" href="https://github.com/tharuneshwar-s/deskcharm-releases">GitHub</a>
+        </nav>
+    </header>
+
+    <div class="hero-wrap" id="hero-wrap">
+        <section class="hero">
+            <div class="hero-text">
+                <p class="eyebrow">Free for Windows 10 &amp; 11 · Version 1.8.0</p>
+                <h1>A little <span class="hl">nazar</span> for your desktop. A lot of calm for your day.</h1>
+                <p class="lead">An evil-eye charm sways at the top of your screen. Temple bells, Diwali diyas and Pongal pots drop by. And gentle nudges remind you to breathe, stretch and drink water — all kept on your own PC.</p>
+                <div class="cta">
+                    <a class="btn primary" id="hero-download" href="#download">Download</a>
+                    <a class="btn ghost" href="#beta">Join the beta</a>
+                    <a class="btn ghost" id="hero-other" href="#download">All downloads</a>
+                </div>
+                <p class="small">No account · No ads · No tracking · English &amp; தமிழ்</p>
+            </div>
+
+            <div class="charm-slot" id="charm-slot">
+                <!-- Shown until the live charm loads (and if it can't). -->
+                <img class="charm-fallback" src="demo/nazar-blue.png" alt="" width="160" height="160">
+                <div class="charm-ui">
+                    <p class="hint" id="charm-hint">
+                        <strong>Go on — grab it.</strong>
+                        <span data-pointer="fine">Fling it, hold to squeeze, or rest your cursor on it.</span>
+                        <span data-pointer="coarse">Drag it, fling it, or press and hold to squeeze.</span>
+                    </p>
+                    <button class="sound-toggle" id="sound-toggle" type="button" aria-pressed="false">
+                        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9h4l5-4v14l-5-4H4z" fill="currentColor"/><path class="wave" d="M16 9a4 4 0 0 1 0 6M18.5 6.5a7.5 7.5 0 0 1 0 11" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><path class="mute" d="M16 9l5 6M21 9l-5 6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+                        <span>Sound off</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- The real overlay, running in the page (src/js/embed-host.js, copied to demo/). -->
+        <iframe id="charm-demo" class="charm-demo" src="demo/?embed" title="Interactive charm" aria-hidden="true" tabindex="-1"></iframe>
+    </div>
+
+    <main id="main">
+        <section class="try reveal" aria-label="Things to try">
+            <span class="try-label">Things to try</span>
+            <ul class="chips">
+                <li>Slide the beads</li>
+                <li>Fling it over the hook</li>
+                <li>Click fast to burst it</li>
+                <li>Rest your cursor to breathe</li>
+            </ul>
+        </section>
+
+        <section class="video reveal" aria-labelledby="video-title">
+            <div class="video-head">
+                <p class="eyebrow">3-minute tour</p>
+                <h2 id="video-title">See DeskCharm on a real desktop</h2>
+            </div>
+            <div class="video-frame">
+                <video controls preload="none" poster="video/poster.jpg" width="1920" height="1080">
+                    <source src="video/DeskCharm-Explainer.mp4" type="video/mp4">
+                    <track kind="captions" src="video/DeskCharm-Explainer.vtt" srclang="en" label="English" default>
+                    Your browser can't play this video. <a href="video/DeskCharm-Explainer.mp4">Download the explainer (MP4)</a>.
+                </video>
+            </div>
+            <p class="small center">Prefer reading? <a href="guide/DeskCharm-Guide.pdf">Get the full guide (PDF)</a> · <a href="changelog.html">What's new</a></p>
+        </section>
+
+        <section id="features" class="rows" aria-label="Features">
+            <article class="row reveal">
+                <div class="row-text">
+                    <p class="eyebrow">Culture</p>
+                    <h2>Made for the way we celebrate</h2>
+                    <p>A diya at Diwali, colour at Holi, a boiling pot at Pongal, a reindeer at Christmas. Festival visitors walk across your taskbar on the day — and the charm and visitors can speak Tamil.</p>
+                    <ul class="ticks">
+                        <li>Nazar, Ganesha, Om and temple bell charms</li>
+                        <li>Festival decorations for Diwali, Navratri, Holi, Eid, Christmas and more</li>
+                    </ul>
+                </div>
+                <figure class="row-art"><img src="guide/img/settings-seasons.png" alt="Seasons settings: day and night mood, festival decorations, live weather wind and sway to music" width="960" height="720" loading="lazy" decoding="async"></figure>
+            </article>
+
+            <article class="row reverse reveal">
+                <div class="row-text">
+                    <p class="eyebrow">Desk visitors</p>
+                    <h2>Small friends who remind you to care for yourself</h2>
+                    <p>A cat, a baby elephant, a peacock, a monkey who steals a bead, a yogi — and Vijay, the water buddy, who strolls by with a tumbler when it's time to drink.</p>
+                    <ul class="ticks">
+                        <li>Your own reminders, asked by a visitor with Done / Later</li>
+                        <li>They stay away during calls, games and presentations</li>
+                    </ul>
+                </div>
+                <figure class="row-art pair">
+                    <img src="guide/img/overlay-visitor-vijay.png" alt="Vijay, the water buddy, walking with a steel tumbler" width="380" height="340" loading="lazy" decoding="async">
+                    <img src="guide/img/overlay-reminder.png" alt="An orange cat asking: Stand up and stretch, with Done and Later buttons" width="440" height="330" loading="lazy" decoding="async">
+                </figure>
+            </article>
+
+            <article class="row reveal">
+                <div class="row-text">
+                    <p class="eyebrow">Calm</p>
+                    <h2>Breathe, focus, rest your eyes</h2>
+                    <p>Rest your cursor on the charm and it glows in a slow breathing rhythm. Guided breathing, a focus timer with tasks, break and 20-20-20 eye-rest reminders, stretch and posture nudges, and a daily mood check-in.</p>
+                    <ul class="ticks">
+                        <li>Water reminder with a daily ring</li>
+                        <li>Ambient sounds and a daily ritual</li>
+                    </ul>
+                </div>
+                <figure class="row-art pair">
+                    <img src="guide/img/overlay-breathing.png" alt="The charm glowing during a guided breathing session" width="375" height="520" loading="lazy" decoding="async">
+                    <img src="guide/img/overlay-mood.png" alt="The daily mood check-in under the charm" width="320" height="487" loading="lazy" decoding="async">
+                </figure>
+            </article>
+
+            <article class="row reverse reveal">
+                <div class="row-text">
+                    <p class="eyebrow">Insights</p>
+                    <h2>Watch your calm add up</h2>
+                    <p>Focus, breathing, breaks, eye rests, water, mood and your calm streak — this week compared with last week. Stored only on your PC, and you can delete it any time.</p>
+                    <ul class="ticks">
+                        <li>Right-click the charm → Today for a quick summary</li>
+                        <li>Hides itself during fullscreen apps and screen shares</li>
+                    </ul>
+                </div>
+                <figure class="row-art"><img src="guide/img/settings-insights.png" alt="Insights: this week versus last week for focus, breathing, breaks, water, mood and calm streak" width="960" height="720" loading="lazy" decoding="async"></figure>
+            </article>
+        </section>
+
+        <section class="gallery reveal">
+            <h2>Pick your charm</h2>
+            <p class="section-lead">Nazar designs and Indian gods for free — or upload your own PNG.</p>
+            <div class="thumbs">
+                <img src="img/thumb-nazar-blue.webp" alt="Classic blue nazar" width="96" height="96" loading="lazy">
+                <img src="img/thumb-nazar-gold.webp" alt="Gold nazar" width="96" height="96" loading="lazy">
+                <img src="img/thumb-nazar-green.webp" alt="Emerald nazar" width="96" height="96" loading="lazy">
+                <img src="img/thumb-nazar-hamsa.webp" alt="Hamsa hand" width="96" height="96" loading="lazy">
+                <img src="img/thumb-nazar-lemon.webp" alt="Nimbu mirchi" width="96" height="96" loading="lazy">
+                <img src="img/thumb-gods-ganesha.webp" alt="Ganesha" width="96" height="96" loading="lazy">
+                <img src="img/thumb-gods-om.webp" alt="Om symbol" width="96" height="96" loading="lazy">
+                <img src="img/thumb-gods-bell.webp" alt="Temple bell" width="96" height="96" loading="lazy">
+            </div>
+        </section>
+
+        <section id="pricing" class="pricing reveal" aria-labelledby="pricing-title">
+            <h2 id="pricing-title">Free &amp; Pro</h2>
+            <p class="section-lead">Everything you need for a calmer day is free. Pro is planned as a small one-time purchase — no subscription.</p>
+            <div class="table-wrap">
+                <table class="plans">
+                    <caption class="sr-only">What's in DeskCharm Free and DeskCharm Pro</caption>
+                    <thead>
+                        <tr><th scope="col">Feature</th><th scope="col">Free</th><th scope="col">Pro</th></tr>
+                    </thead>
+                    <tbody>
+                        <tr><th scope="row">Classic charms (Nazar, Indian Gods), plus one Pro pack free each month</th><td><span class="yes" aria-label="Included">✓</span></td><td><span class="yes" aria-label="Included">✓</span></td></tr>
+                        <tr><th scope="row">All everyday and festival visitors</th><td><span class="yes" aria-label="Included">✓</span></td><td><span class="yes" aria-label="Included">✓</span></td></tr>
+                        <tr><th scope="row">Breathing, focus, breaks, water, posture, mood, reminders</th><td><span class="yes" aria-label="Included">✓</span></td><td><span class="yes" aria-label="Included">✓</span></td></tr>
+                        <tr><th scope="row">Themes</th><td>with one charm</td><td>as charm pairs</td></tr>
+                        <tr><th scope="row">Your own PNG charms</th><td>1</td><td>Unlimited</td></tr>
+                        <tr><th scope="row">All charm packs, all the time: Zodiac, Birthstones, Crystals &amp; gems, Temple, Lucky, Friends</th><td><span class="no" aria-label="Not included">—</span></td><td><span class="yes" aria-label="Included">✓</span></td></tr>
+                        <tr><th scope="row">Two charms at once</th><td><span class="no" aria-label="Not included">—</span></td><td><span class="yes" aria-label="Included">✓</span></td></tr>
+                        <tr><th scope="row">Insights</th><td>last 7 days</td><td>full history + This week</td></tr>
+                        <tr><th scope="row">Focus guard and calendar quiet</th><td><span class="no" aria-label="Not included">—</span></td><td><span class="yes" aria-label="Included">✓</span></td></tr>
+                    </tbody>
+                    <tfoot>
+                        <tr><th scope="row">Price</th><td>₹0, forever</td><td>Lifetime licence, one-time: ₹69 launch / ₹99. 7-day trial. <a href="pricing.html">Buy Pro</a></td></tr>
+                    </tfoot>
+                </table>
+            </div>
+        </section>
+
+        <section id="privacy" class="reveal" aria-labelledby="privacy-title">
+            <h2 id="privacy-title" class="center">Private by design</h2>
+            <p class="section-lead center">Your settings, tasks, reminders and insights are files on your PC. DeskCharm only goes online to check for updates — and for weather or calendar, only if you turn them on.</p>
+            <div class="privacy">
+                <div class="privacy-item">
+                    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l7 3v5c0 4.5-3 8.3-7 10-4-1.7-7-5.5-7-10V6z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><path d="M9 12l2 2 4-4" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                    <div><strong>No account, no ads</strong><span>No analytics. Nothing to sign up for.</span></div>
+                </div>
+                <div class="privacy-item">
+                    <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="5" width="16" height="11" rx="2" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M9 20h6M12 16v4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+                    <div><strong>Stays on your computer</strong><span>Settings and insights never leave it.</span></div>
+                </div>
+                <div class="privacy-item">
+                    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 4v16M5 9v6M13 7v10M17 10v4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+                    <div><strong>Nothing recorded</strong><span>Music sway hears loudness, typing breeze counts keys — never which ones.</span></div>
+                </div>
+                <div class="privacy-item">
+                    <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M12 8v4l3 2" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+                    <div><strong>Opt-in extras</strong><span>Live weather and calendar quiet are off until you turn them on.</span></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="download" class="download reveal">
+            <h2>Download</h2>
+            <p class="section-lead">Version 1.8.0 · free · <a href="https://github.com/tharuneshwar-s/deskcharm-releases/releases/latest">all release files</a> · <a href="changelog.html">what's new</a> · <a href="guide/DeskCharm-Guide.pdf">guide (PDF)</a></p>
+            <div class="dl-grid">
+                <article class="dl" data-os="windows">
+                    <h3>Windows</h3>
+                    <p class="dl-req">Windows 10 (2004) or 11, 64-bit</p>
+                    <a class="btn primary" href="https://github.com/tharuneshwar-s/deskcharm-releases/releases/latest">Installer (.exe)</a>
+                </article>
+                <article class="dl" data-os="macos">
+                    <h3>macOS <span class="beta">Untested</span></h3>
+                    <p class="dl-req">Builds exist but haven't been tested yet</p>
+                    <a class="btn ghost" href="https://github.com/tharuneshwar-s/deskcharm-releases/releases/latest">Release files</a>
+                </article>
+                <article class="dl" data-os="linux">
+                    <h3>Linux <span class="beta">Untested</span></h3>
+                    <p class="dl-req">Builds exist but haven't been tested yet</p>
+                    <a class="btn ghost" href="https://github.com/tharuneshwar-s/deskcharm-releases/releases/latest">Release files</a>
+                </article>
+            </div>
+
+            <div class="install">
+                <details data-os="windows" open>
+                    <summary>Windows says "Windows protected your PC"</summary>
+                    <p>DeskCharm isn't code-signed yet, so Windows SmartScreen warns about the installer the first time. It's safe to continue:</p>
+                    <div class="smartscreen" aria-hidden="true">
+                        <figure>
+                            <div class="ss-mock">
+                                <div class="ss-title">Windows protected your PC</div>
+                                <div>Microsoft Defender SmartScreen prevented an unrecognised app from starting…</div>
+                                <div class="ss-link"><span class="ss-hl">More info</span></div>
+                                <div class="ss-btns"><span class="ss-btn">Don't run</span></div>
+                            </div>
+                            <figcaption class="ss-cap">1. Click <strong>More info</strong>.</figcaption>
+                        </figure>
+                        <figure>
+                            <div class="ss-mock">
+                                <div class="ss-title">Windows protected your PC</div>
+                                <div>App: DeskCharm_1.8.0_x64-setup.exe<br>Publisher: Unknown publisher</div>
+                                <div class="ss-btns"><span class="ss-btn ss-hl">Run anyway</span><span class="ss-btn">Don't run</span></div>
+                            </div>
+                            <figcaption class="ss-cap">2. Click <strong>Run anyway</strong>.</figcaption>
+                        </figure>
+                    </div>
+                    <p class="small">Illustration, not a real screenshot. Click <em>More info</em> → <em>Run anyway</em>. It installs for your account only (no admin needed) and starts in the system tray; left-click the tray icon for Settings.</p>
+                    <p class="small">Want to check the file? Each release lists the installer's SHA-256 checksum. In PowerShell run <code>Get-FileHash .\DeskCharm_*_x64-setup.exe</code> and compare it with the one on the release page. Only download DeskCharm from deskcharm.in or its GitHub releases page.</p>
+                </details>
+                <details data-os="macos">
+                    <summary>Trying it on macOS</summary>
+                    <p>The macOS build is untested and not notarized by Apple. Drag DeskCharm to Applications, then <strong>right-click</strong> it → <em>Open</em> → <em>Open</em>. Please tell us what works and what doesn't.</p>
+                </details>
+                <details data-os="linux">
+                    <summary>Trying it on Linux</summary>
+                    <p>The Linux build is untested. You need a system tray (on GNOME, the AppIndicator extension). On Wayland, always-on-top transparent windows are limited — if the charm misbehaves, log in with an X11 session.</p>
+                </details>
+            </div>
+            <p class="small">Found a problem? <a href="https://github.com/tharuneshwar-s/deskcharm-releases/issues/new">Open an issue on GitHub</a> or email <a href="mailto:support@deskcharm.in">support@deskcharm.in</a>.</p>
+        </section>
+
+        <section id="beta" class="beta-band reveal" aria-labelledby="beta-title">
+            <div>
+                <p class="eyebrow">Beta</p>
+                <h2 id="beta-title">Help shape DeskCharm</h2>
+                <p>We're Tharuneshwar and Saransakthi, two co-founders building a calmer desktop. Join the beta to try new charms and visitors first, tell us what helps your day, and be the first to hear about new charm packs.</p>
+            </div>
+            <div class="cta">
+                <a class="btn primary" href="mailto:support@deskcharm.in?subject=DeskCharm%20beta">Join the beta</a>
+                <a class="btn ghost" href="#download">Download now</a>
+            </div>
+        </section>
+
+        <section id="faq" class="faq reveal">
+            <h2>Questions</h2>
+            <details>
+                <summary>Is it really free?</summary>
+                <p>Yes. The charm, all visitors and every calm tool are free, with no ads. DeskCharm Pro is a one-time lifetime licence: ₹69 for launch, then ₹99. Every install gets all of Pro free for 7 days. Calm tools never move behind it.</p>
+            </details>
+            <details>
+                <summary>Does DeskCharm send my data anywhere?</summary>
+                <p>No. There's no account, analytics or tracking. It goes online only to check GitHub for updates, and for live weather or calendar quiet if you turn those on. Details are in the <a href="guide/DeskCharm-Guide.pdf">guide</a>.</p>
+            </details>
+            <details>
+                <summary>Can I use it in Tamil?</summary>
+                <p>Yes. Settings → General → Language → <em>Charm &amp; visitors speak</em>: English or தமிழ். The speech bubbles and cues change; the Settings window stays in English.</p>
+            </details>
+            <details>
+                <summary>How do I open Settings?</summary>
+                <p>Left-click the DeskCharm icon in the system tray. Right-click the charm itself for breathing, focus, Today, Hide and Mute.</p>
+            </details>
+            <details>
+                <summary>Can I click things underneath it?</summary>
+                <p>Yes. Clicks go straight through everywhere except on the charm and visitors.</p>
+            </details>
+            <details>
+                <summary>Will it show up when I share my screen?</summary>
+                <p>Not by default — the charm is excluded from screen sharing, recordings and screenshots, and it hides during fullscreen apps and calls. You can change this in Settings → Privacy.</p>
+            </details>
+            <details>
+                <summary>How do I get new versions?</summary>
+                <p>DeskCharm checks for updates every few hours and installs a new version with one click (Settings → General → Updates).</p>
+            </details>
+            <details>
+                <summary>Does it work on macOS or Linux?</summary>
+                <p>DeskCharm is built for Windows. macOS and Linux builds exist but are untested, and some features (music sway, smart hiding, screen-share invisibility) are Windows-only.</p>
+            </details>
+            <details>
+                <summary>How do I uninstall it?</summary>
+                <p>Windows Settings → Apps → DeskCharm → Uninstall. This also removes your settings and insights.</p>
+            </details>
+        </section>
+    </main>
+
+    <footer>
+        <span class="brand small-brand"><span class="brand-eye"></span>DeskCharm</span>
+        <p>&copy; 2026 Tharuneshwar S &amp; Saransakthi N · <a href="guide/DeskCharm-Guide.pdf">Guide</a> · <a href="changelog.html">Changelog</a> · <a href="pricing.html">Pricing</a> · <a href="legal/terms.html">Terms</a> · <a href="legal/privacy.html">Privacy</a> · <a href="legal/refund.html">Refunds</a> · <a href="legal/contact.html">Contact</a> · <a href="https://github.com/tharuneshwar-s/deskcharm-releases">GitHub</a></p>
+    </footer>
+
+    <script src="site.js"></script>
+</body>
+</html>

@@ -1,0 +1,207 @@
+1
+00:00:00,500 --> 00:00:01,416
+Meet DeskCharm.
+
+2
+00:00:01,466 --> 00:00:09,727
+It is a little charm that hangs from the top
+of your screen, sways as your mouse passes by,
+and keeps you company while you work.
+
+3
+00:00:09,777 --> 00:00:13,850
+And now and then, a friendly visitor strolls
+along your taskbar.
+
+4
+00:00:15,500 --> 00:00:17,084
+Getting started is easy.
+
+5
+00:00:17,134 --> 00:00:24,029
+Run the installer — no admin rights needed —
+and DeskCharm starts right away, in the
+top-right corner.
+
+6
+00:00:24,079 --> 00:00:29,000
+Its tray icon, near the clock, opens Settings,
+hides the charm, or quits.
+
+7
+00:00:30,650 --> 00:00:32,527
+The charm is made for touching.
+
+8
+00:00:32,577 --> 00:00:35,821
+Grab it and fling it, and it swings on a real
+string.
+
+9
+00:00:35,871 --> 00:00:40,483
+Rest your cursor on it, and it glows softly,
+breathing in and out with you.
+
+10
+00:00:40,533 --> 00:00:42,223
+Double-click to ring a bell.
+
+11
+00:00:42,273 --> 00:00:42,844
+Rough day?
+
+12
+00:00:42,894 --> 00:00:46,325
+Click it quickly, again and again, and smash
+it to calm.
+
+13
+00:00:47,975 --> 00:00:53,493
+Right-click for the quick menu: breathing,
+focus, your tasks, ambience and more.
+
+14
+00:00:53,543 --> 00:00:55,999
+Hang one charm, or two side by side.
+
+15
+00:00:56,049 --> 00:01:00,106
+Toro and Kuro have living cat faces — click
+one to poke it.
+
+16
+00:01:00,156 --> 00:01:04,700
+And themes set both charms, a soft glow, and a
+sound in one click.
+
+17
+00:01:06,350 --> 00:01:09,249
+Every so often, a desk visitor drops by.
+
+18
+00:01:09,299 --> 00:01:12,639
+A baby elephant trumpets and sprays the charm.
+
+19
+00:01:12,689 --> 00:01:14,925
+A cat stretches and settles in.
+
+20
+00:01:14,975 --> 00:01:17,136
+A cheeky monkey steals a bead!
+
+21
+00:01:17,186 --> 00:01:19,200
+And a peacock fans its tail.
+
+22
+00:01:20,850 --> 00:01:23,536
+The yogi floats in for three slow breaths.
+
+23
+00:01:23,586 --> 00:01:26,077
+The chai-wala rides up with your break.
+
+24
+00:01:26,127 --> 00:01:29,725
+And the myna bird lands to remind you to rest
+your eyes.
+
+25
+00:01:31,375 --> 00:01:35,400
+Vijay, your water buddy, offers a tumbler:
+drink some water?
+
+26
+00:01:35,450 --> 00:01:38,863
+Say yes, and a glass is counted on your water
+ring.
+
+27
+00:01:38,913 --> 00:01:44,500
+During festivals like Pongal, Holi, Diwali and
+Christmas, special guests visit too.
+
+28
+00:01:46,150 --> 00:01:49,761
+When you need a pause, start a guided
+breathing session.
+
+29
+00:01:49,811 --> 00:01:53,094
+The charm glows — in for four seconds, out for
+six.
+
+30
+00:01:53,144 --> 00:01:54,075
+Just follow it.
+
+31
+00:01:55,725 --> 00:02:00,503
+The focus timer gives you twenty-five minutes
+of focus, then a short break.
+
+32
+00:02:00,553 --> 00:02:05,975
+It asks what you are working on, and shows
+your task and time right beside the charm.
+
+33
+00:02:07,625 --> 00:02:09,984
+The water ring fills through the day.
+
+34
+00:02:10,034 --> 00:02:12,002
+The yogi leads a quick stretch.
+
+35
+00:02:12,052 --> 00:02:17,275
+And once a day, a mood check-in asks how you
+are feeling, with five simple faces.
+
+36
+00:02:18,925 --> 00:02:26,481
+Your own reminders arrive as a soft cue beside
+the charm, a visitor if you like, and a
+Windows notification.
+
+37
+00:02:26,531 --> 00:02:33,875
+Add gentle ambience — rain, ocean, temple, or
+chimes — and a daily ritual for your mornings
+and evenings.
+
+38
+00:02:35,525 --> 00:02:40,891
+Insights shows your calm minutes, breaks,
+water and streak, with a look at this week.
+
+39
+00:02:40,941 --> 00:02:47,200
+And Settings lets you shape everything: the
+charm, play, visitors, calm tools, seasons and
+privacy.
+
+40
+00:02:48,850 --> 00:02:52,059
+The charm and visitors can speak English or
+Tamil.
+
+41
+00:02:52,109 --> 00:02:59,750
+Set shortcuts to send a visitor, count a glass
+of water, or take a breath, and back up your
+settings to a single file.
+
+42
+00:03:01,400 --> 00:03:03,751
+Best of all, it stays on your PC.
+
+43
+00:03:03,801 --> 00:03:06,515
+No account, no analytics, no tracking.
+
+44
+00:03:06,565 --> 00:03:10,225
+DeskCharm — a little calm, hanging on your
+desktop.

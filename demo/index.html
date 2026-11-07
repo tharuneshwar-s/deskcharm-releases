@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DeskCharm</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Sized to the monitor by js/app.js -->
+    <svg class="dg-svg" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+            <filter id="dgShadow" x="-40%" y="-40%" width="180%" height="200%">
+                <feDropShadow dx="0" dy="14" stdDeviation="9"
+                              flood-color="#1B2440" flood-opacity=".22"/>
+            </filter>
+            <filter id="glowBlur" x="-60%" y="-60%" width="220%" height="220%">
+                <feGaussianBlur stdDeviation="14"/>
+            </filter>
+        </defs>
+
+        <!-- Drawing layers (back to front); charms are created by js/charm.js -->
+        <g id="layer-back"></g>
+        <g id="layer-charms"></g>
+        <g id="layer-front"></g>
+        <g id="layer-ui"></g>
+    </svg>
+    <!-- No-op unless loaded with ?embed (website hero, Settings preview). -->
+    <script src="js/embed-host.js"></script>
+    <script type="module" src="js/app.js"></script>
+</body>
+</html>
