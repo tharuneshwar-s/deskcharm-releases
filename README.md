@@ -1,5 +1,6 @@
-# DeskCharm
+# DeskCharm releases
 
-Downloads and website for DeskCharm: https://deskcharm.in
+Installers and auto-update files for **DeskCharm**: download the latest from
+[Releases](https://github.com/tharuneshwar-s/deskcharm-releases/releases/latest).
 
-Get the latest installer from [Releases](https://github.com/tharuneshwar-s/deskcharm-releases/releases/latest). Support: support@deskcharm.in
+Website: https://deskcharm.in · Support: support@deskcharm.in
