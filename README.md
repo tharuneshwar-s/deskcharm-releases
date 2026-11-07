@@ -32,9 +32,9 @@ The charm lives in a see-through window: clicks pass through to whatever is unde
 
 ### 🐘 Desk visitors
 - A cat, a baby elephant, **Vijay the water buddy** and more, walking along your taskbar.
-- **Festival visitors** for Diwali, Pongal, Christmas and other days we celebrate.
+- **Festival visitors** during Pongal, Holi, Diwali and Christmas.
 - Visitors can carry your reminders: choose **who visits for what** (Auto, Favourite or Custom).
-- They stay away during full-screen apps, games and meetings.
+- They stay away during full-screen apps, calls, busy calendar events and quiet hours.
 
 <p align="center">
   <img src="https://deskcharm.in/img/festival.webp" alt="Festival visitors" width="30%">
